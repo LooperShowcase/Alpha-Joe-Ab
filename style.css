@@ -1,0 +1,78 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #64b6ac; /* Light blue background */
+  color: #333333; /* Dark text color for readability */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+h1 {
+  background-color: #0066cc; /* Blue background */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Horizontal rule */
+hr {
+  border: 0;
+  border-top: 2px solid #0066cc; /* Blue line */
+  margin: 20px 0;
+}
+
+/* Paragraph and headings styling */
+p,
+h2,
+h3 {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+/* List styling */
+ul {
+  margin: 10px 40px;
+  padding: 10px;
+}
+
+li {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* Links (if any) styling */
+a {
+  color: #0066cc; /* Blue text */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3305ff;
+}
+
+#nav {
+  float: left;
+}
+
+#nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  background-color: #57c6fa;
+}
